@@ -65,7 +65,7 @@ DATA_DIRECTORY=./data
 Install the required dependencies:
 
 ```bash
-pip install fastapi uvicorn streamlit langchain langchain-groq langchain-chroma langchain-huggingface langgraph pdfplumber pandas flashrank diskcache python-dotenv
+pip install -r requirements.txt
 
 ```
 
@@ -99,3 +99,4 @@ streamlit run streamlit_app.py
 * `POST /upload`: Upload files for background indexing.
 * `GET /documents`: List all currently indexed documents.
 * `POST /delete`: Remove a specific document from the vector store.
+* `GET /health`: Provides a simple status check to confirm the backend API is running and reachable.
