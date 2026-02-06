@@ -1,7 +1,5 @@
 # GovTech_RAG_Chatbot
 
-# README: Granicus AI RAG Chatbot
-
 ## Project Overview
 
 GovTech AI is a specialized Retrieval-Augmented Generation (RAG) system designed for government technology applications. It allows users to upload official documents—such as PDFs, CSVs, TXT, and Markdown files—and interact with them through a grounded conversational interface. The system is built to ensure high accuracy, transparency, and data security, making it suitable for public sector use cases where factual grounding is critical.
