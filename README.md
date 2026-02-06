@@ -90,6 +90,7 @@ streamlit run streamlit_app.py
 ```
 
 *Access the dashboard via your browser at the provided local URL.*
+<img width="1466" height="647" alt="image" src="https://github.com/user-attachments/assets/26350503-fa21-4f62-80f0-652df10885c3" />
 
 ---
 
