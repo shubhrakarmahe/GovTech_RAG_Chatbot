@@ -4,7 +4,7 @@
 
 ## Project Overview
 
-Granicus AI is a specialized Retrieval-Augmented Generation (RAG) system designed for government technology applications. It allows users to upload official documents—such as PDFs, CSVs, TXT, and Markdown files—and interact with them through a grounded conversational interface. The system is built to ensure high accuracy, transparency, and data security, making it suitable for public sector use cases where factual grounding is critical.
+GovTech AI is a specialized Retrieval-Augmented Generation (RAG) system designed for government technology applications. It allows users to upload official documents—such as PDFs, CSVs, TXT, and Markdown files—and interact with them through a grounded conversational interface. The system is built to ensure high accuracy, transparency, and data security, making it suitable for public sector use cases where factual grounding is critical.
 
 ### Key Features
 
@@ -51,9 +51,14 @@ The system follows a modular 5-part structure to ensure scalability and maintain
 Create a `.env` file in the root directory:
 
 ```bash
-GROQ_API_KEY=your_api_key_here
+GROQ_API_KEY=groq_api_key
+LANGCHAIN_API_KEY=langchain_api_key
+
+# Configuration
+LLM_MODEL_NAME=llama-3.3-70b-versatile
+EMBEDDING_MODEL_NAME=sentence-transformers/all-MiniLM-L6-v2
 PERSIST_DIRECTORY=./chroma_db
-LLM_MODEL=llama-3.3-70b-versatile
+DATA_DIRECTORY=./data
 
 ```
 
