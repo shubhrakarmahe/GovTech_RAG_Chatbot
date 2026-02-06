@@ -5,7 +5,10 @@ import logging
 import time
 from typing import List
 from fastapi import FastAPI, UploadFile, File, BackgroundTasks, HTTPException, Request
+from fastapi.responses import RedirectResponse
 from pydantic import BaseModel
+
+# Internal module imports
 from src.ingestion import UnifiedIngestor
 from src.graph import build_rag_graph
 
@@ -16,7 +19,11 @@ logging.basicConfig(
 )
 logger = logging.getLogger("RAG_API")
 
-app = FastAPI(title="Granicus AI Backend")
+app = FastAPI(
+    title="Granicus AI Backend",
+    description="Grounded RAG API for Government Technology Document Intelligence",
+    version="1.0.0"
+)
 
 # Initialize core components
 ingestor = UnifiedIngestor()
@@ -50,6 +57,7 @@ async def log_requests(request: Request, call_next):
 
 # --- HELPERS ---
 def run_ingestion(path: str, original_filename: str):
+    """Handles background file processing and indexing."""
     try:
         logger.info(f"🚀 Processing background ingestion for: {original_filename}")
         final_path = os.path.join(UPLOAD_DIR, original_filename)
@@ -69,18 +77,61 @@ def run_ingestion(path: str, original_filename: str):
 
 # --- ENDPOINTS ---
 
-@app.get("/documents")
+@app.get("/health", tags=["System"])
+async def health():
+    """
+    System health check to ensure the API and core components are initialized.
+    """
+    return {
+        "status": "healthy",
+        "timestamp": time.time(),
+        "components": {
+            "ingestor": "ready" if ingestor else "failed",
+            "workflow": "ready" if workflow else "failed"
+        }
+    }
+
+@app.get("/stats", tags=["System"])
+async def get_stats():
+    """
+    Returns system statistics, including total indexed document count and chunk volume.
+    """
+    try:
+        # Access Chroma collection through the LangChain wrapper to count records
+        collection = ingestor.vectorstore._collection
+        results = collection.get(include=["metadatas"])
+        
+        metadatas = results.get("metadatas", [])
+        total_chunks = len(metadatas)
+        unique_sources = len(set(os.path.basename(m["source"]) for m in metadatas if m and "source" in m))
+        
+        return {
+            "total_documents_indexed": unique_sources,
+            "total_vector_chunks": total_chunks,
+            "vector_store": "ChromaDB",
+            "persist_directory": ingestor.persist_directory
+        }
+    except Exception as e:
+        logger.error(f"Stats retrieval failed: {e}")
+        raise HTTPException(status_code=500, detail="Could not retrieve system statistics.")
+
+@app.get("/docs", include_in_schema=False)
+async def custom_docs_redirect():
+    """
+    Redirects to the auto-generated Swagger UI documentation.
+    """
+    return RedirectResponse(url="/docs")
+
+@app.get("/documents", tags=["Library"])
 async def list_documents():
     """Returns a list of unique filenames currently in the vector store."""
     try:
-        # Access Chroma collection through the LangChain wrapper
         collection = ingestor.vectorstore._collection
         results = collection.get(include=["metadatas"])
         
         sources = set()
         for meta in results.get("metadatas", []):
             if meta and "source" in meta:
-                # Store only the filename, not the full path
                 sources.add(os.path.basename(meta["source"]))
         
         return {"documents": sorted(list(sources)), "count": len(sources)}
@@ -88,12 +139,10 @@ async def list_documents():
         logger.error(f"List error: {e}")
         raise HTTPException(status_code=500, detail="Could not retrieve documents.")
 
-@app.post("/delete")
+@app.post("/delete", tags=["Library"])
 async def delete_document(req: DeleteRequest):
     """Deletes all chunks belonging to a specific filename."""
     try:
-        # Chroma handles 'where' filters for deletion
-        # Note: Ensure metadata 'source' exactly matches req.filename or path
         collection = ingestor.vectorstore._collection
         collection.delete(where={"source": req.filename})
         
@@ -103,8 +152,9 @@ async def delete_document(req: DeleteRequest):
         logger.error(f"Delete error: {e}")
         raise HTTPException(status_code=500, detail=str(e))
 
-@app.post("/upload")
+@app.post("/upload", tags=["Ingestion"])
 async def upload_file(background_tasks: BackgroundTasks, file: UploadFile = File(...)):
+    """Receives file and queues it for background indexing."""
     try:
         unique_id = uuid.uuid4().hex[:8]
         temp_filename = f"{unique_id}_{file.filename}"
@@ -120,15 +170,17 @@ async def upload_file(background_tasks: BackgroundTasks, file: UploadFile = File
         logger.error(f"Upload failed: {e}")
         raise HTTPException(status_code=500, detail=str(e))
 
-@app.post("/chat", response_model=ChatResponse)
+@app.post("/chat", response_model=ChatResponse, tags=["Chat"])
 async def chat(req: ChatRequest):
+    """Executes the RAG graph to generate a grounded response."""
     try:
         start_time = time.time()
         initial_state = {
             "question": req.question, 
             "documents": [], 
             "metadata_manifest": [],
-            "confidence_score": 0.0
+            "confidence_score": 0.0,
+            "latency_ms": 0.0
         }
         
         result = workflow.invoke(initial_state)
@@ -144,10 +196,7 @@ async def chat(req: ChatRequest):
         logger.error(f"Chat error: {e}")
         raise HTTPException(status_code=500, detail="Internal processing error.")
 
-@app.get("/health")
-async def health():
-    return {"status": "healthy"}
-
 if __name__ == "__main__":
     import uvicorn
+    # Entry point for starting the FastAPI server
     uvicorn.run(app, host="0.0.0.0", port=8000)
