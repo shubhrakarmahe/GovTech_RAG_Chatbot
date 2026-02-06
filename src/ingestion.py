@@ -211,4 +211,5 @@ class UnifiedIngestor:
             vectorstore.add_documents(docs)
             logger.info(f"✅ Indexed {len(docs)} chunks from {filename}")
             return len(docs)
+
         return 0
