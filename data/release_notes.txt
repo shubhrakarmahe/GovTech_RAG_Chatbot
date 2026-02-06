@@ -1,0 +1,231 @@
+GRANICUS PRODUCT RELEASE NOTES
+
+=== 2025 Q3 RELEASES ===
+
+GovDelivery Communications Cloud v4.2.0 - Released September 1, 2025
+
+NEW FEATURES:
++ Enhanced AI-powered message optimization with natural language suggestions
++ Advanced subscriber segmentation based on engagement patterns
++ Integration with Microsoft Teams for collaborative message creation
++ Real-time collaboration features for multi-user message editing
++ Improved mobile app with offline message composition
++ Custom webhook endpoints for third-party integrations
+
+IMPROVEMENTS:
+• Increased message sending throughput by 40% for Enterprise customers
+• Reduced API response times by 25% across all endpoints
+• Enhanced spam filtering with machine learning algorithms
+• Improved accessibility compliance with WCAG 2.2 standards
+• Updated user interface with modern design patterns
+• Enhanced search functionality with fuzzy matching
+
+BUG FIXES:
+- Fixed issue with SMS delivery to Canadian phone numbers
+- Resolved timezone display problems in message scheduling
+- Corrected subscriber import validation for international addresses
+- Fixed memory leak in bulk message processing
+- Resolved authentication timeout issues in high-traffic scenarios
+
+govAccess ADA Compliance v3.1.0 - Released August 15, 2025
+
+NEW FEATURES:
++ Automated PDF accessibility scanning and remediation
++ Integration with popular CMS platforms (WordPress, Drupal, Joomla)
++ Real-time accessibility monitoring with instant alerts
++ AI-powered alt text generation for images
++ Voice-over testing simulation for screen reader compatibility
++ Comprehensive accessibility training modules
+
+IMPROVEMENTS:
+• Reduced false positive rate in automated scanning by 60%
+• Enhanced manual testing workflow with streamlined interfaces
+• Improved reporting with executive-level dashboards
+• Faster scan completion times (50% improvement for large sites)
+• Enhanced mobile accessibility testing capabilities
+
+BUG FIXES:
+- Fixed CSS parsing issues with modern frameworks
+- Resolved JavaScript accessibility detection problems
+- Corrected color contrast calculations for gradient backgrounds
+- Fixed keyboard navigation testing in single-page applications
+
+=== 2025 Q2 RELEASES ===
+
+Meeting Management Suite v2.3.0 - Released June 30, 2025
+
+NEW FEATURES:
++ Hybrid meeting support with in-person and virtual participants
++ AI-powered meeting transcription with speaker identification
++ Integration with Zoom, Microsoft Teams, and Google Meet
++ Automatic action item extraction from meeting discussions
++ Multi-language live translation (Spanish, French, Mandarin)
++ Advanced polling and voting features with real-time results
+
+IMPROVEMENTS:
+• Enhanced video quality with 4K streaming support
+• Improved bandwidth optimization for low-connectivity areas
+• Streamlined agenda management with drag-and-drop functionality
+• Better mobile experience for meeting participants
+• Enhanced security with end-to-end encryption for sensitive meetings
+
+BUG FIXES:
+- Fixed audio synchronization issues in recorded meetings
+- Resolved calendar integration problems with recurring meetings
+- Corrected participant count display in large meetings
+- Fixed closed captioning accuracy for technical terminology
+
+Legislative Management v1.8.0 - Released May 20, 2025
+
+NEW FEATURES:
++ Advanced bill tracking with predictive analytics
++ Integration with state legislative databases
++ Automated conflict detection for proposed legislation
++ Enhanced public comment management system
++ Mobile application for legislators and staff
++ Real-time voting and amendment tracking
+
+IMPROVEMENTS:
+• Faster search performance across large document collections
+• Enhanced workflow automation with custom triggers
+• Improved reporting with interactive visualizations
+• Better integration with existing government systems
+
+BUG FIXES:
+- Fixed document versioning issues in collaborative editing
+- Resolved export problems with large legislative datasets
+- Corrected user permission inheritance in complex workflows
+
+=== 2025 Q1 RELEASES ===
+
+Granicus Peak Performance v1.5.0 - Released March 15, 2025
+
+NEW FEATURES:
++ AI-driven performance optimization recommendations
++ Advanced caching strategies with edge computing
++ Integration with Google Lighthouse for automated auditing
++ Real-time performance monitoring dashboard
++ Custom alerting rules for performance thresholds
++ Website speed optimization tools with one-click fixes
+
+IMPROVEMENTS:
+• Reduced average page load times by 35% across customer sites
+• Enhanced CDN coverage with 20 new global edge locations
+• Improved image optimization with next-generation formats (WebP, AVIF)
+• Better mobile performance scoring and recommendations
+
+Public Records Portal v2.1.0 - Released February 10, 2025
+
+NEW FEATURES:
++ Advanced document redaction with AI assistance
++ Integration with existing document management systems
++ Automated FOIA request routing based on content analysis
++ Enhanced search with natural language processing
++ Mobile-responsive request submission interface
++ Payment processing for fee-based requests
+
+IMPROVEMENTS:
+• Faster document processing with parallel workflow execution
+• Enhanced security with document watermarking
+• Improved user experience with progress tracking
+• Better integration with government email systems
+
+BUG FIXES:
+- Fixed document download issues for large files
+- Resolved payment processing errors for international requests
+- Corrected search indexing problems with scanned documents
+
+=== 2024 Q4 RELEASES ===
+
+Budget Participation Platform v1.2.0 - Released December 5, 2024
+
+NEW FEATURES:
++ Interactive budget visualization tools
++ Community voting on budget priorities
++ Integration with financial management systems
++ Multi-language support for diverse communities
++ Advanced analytics for participation tracking
++ Gamification features to increase engagement
+
+IMPROVEMENTS:
+• Enhanced data visualization with interactive charts
+• Improved accessibility compliance
+• Better mobile responsiveness for budget tools
+• Streamlined administrator interface
+
+Zoning & Planning Suite v1.0.0 - Released November 15, 2024
+
+NEW FEATURES:
++ GIS integration for interactive zoning maps
++ Online application submission and tracking
++ Automated workflow routing for approvals
++ Public comment and hearing management
++ Document management with version control
++ Integration with permit management systems
+
+IMPROVEMENTS:
+• Intuitive user interface design
+• Comprehensive reporting and analytics
+• Mobile-optimized application process
+
+=== PLATFORM UPDATES ===
+
+Security Updates - Ongoing
+
+ENHANCEMENTS:
+• Updated to TLS 1.3 for all communications
+• Enhanced monitoring for suspicious activities
+• Improved backup and disaster recovery procedures
+• Regular penetration testing and vulnerability assessments
+• Updated compliance certifications (SOC 2, FedRAMP, ISO 27001)
+
+Performance Improvements - Ongoing
+
+OPTIMIZATIONS:
+• Database query optimization reducing response times by 20%
+• Enhanced caching mechanisms across all products
+• Improved API rate limiting with burst capacity
+• Better resource allocation in multi-tenant environments
+• Upgraded infrastructure with latest cloud technologies
+
+=== UPCOMING RELEASES (Q4 2025) ===
+
+Planned Features:
+- Advanced AI chatbot for citizen services
+- Blockchain integration for document verification
+- Enhanced mobile applications with offline capabilities
+- Voice-activated interfaces for accessibility
+- Advanced analytics with predictive modeling
+- Integration with smart city IoT platforms
+
+=== DEPRECATION NOTICES ===
+
+End of Life Announcements:
+• Legacy API v1.0 will be deprecated December 31, 2025
+• Internet Explorer support ending March 31, 2026
+• Flash-based components removed by June 30, 2026
+• Migration tools and documentation available for affected features
+
+=== TECHNICAL REQUIREMENTS ===
+
+System Requirements Updates:
+• Minimum browser versions: Chrome 90+, Firefox 88+, Safari 14+, Edge 90+
+• Mobile OS: iOS 14+, Android 8.0+
+• Recommended bandwidth: 1 Mbps for basic features, 5 Mbps for video
+• JavaScript must be enabled for full functionality
+
+=== CUSTOMER FEEDBACK ===
+
+Recent Customer Requests Implemented:
+✓ Enhanced reporting capabilities (govAccess)
+✓ Improved mobile experience (all products)
+✓ Better API documentation and examples
+✓ Faster customer support response times
+✓ More flexible pricing options for small governments
+
+Most Requested Features for Future Releases:
+• Advanced AI integration across all products
+• Better third-party CRM integrations
+• Enhanced mobile applications
+• More customization options
+• Improved offline capabilities

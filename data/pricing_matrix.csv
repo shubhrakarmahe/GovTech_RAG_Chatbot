@@ -1,0 +1,25 @@
+Product,Tier,Monthly_Price,Annual_Price,Max_Subscribers,Features_Included,Setup_Fee,Support_Level
+GovDelivery Communications Cloud,Starter,$500,$5400,10000,"Email Marketing, Basic Templates, Analytics Dashboard",$250,Email Support
+GovDelivery Communications Cloud,Professional,$1500,$16200,50000,"Email Marketing, SMS Alerts, Advanced Templates, Social Media Integration, Custom Branding",$500,Phone + Email Support
+GovDelivery Communications Cloud,Enterprise,$5000,$54000,250000,"All Professional Features, Voice Messaging, Advanced Analytics, API Access, Dedicated Account Manager",$1000,24/7 Premium Support
+govAccess ADA Compliance,Basic,$300,$3240,5,"Automated Scanning, Basic Reports, WCAG 2.1 AA Compliance",$150,Email Support
+govAccess ADA Compliance,Standard,$800,$8640,25,"All Basic Features, Manual Testing, Remediation Guidance, Priority Support",$300,Phone + Email Support
+govAccess ADA Compliance,Premium,$2000,$21600,100,"All Standard Features, Full Remediation Service, Legal Compliance Guarantee, White-label Reports",$500,24/7 Premium Support
+Granicus Peak Performance,Starter,$1200,$12960,3,"Website Performance Monitoring, Basic Optimization, Monthly Reports",$400,Email Support
+Granicus Peak Performance,Professional,$3000,$32400,10,"All Starter Features, Advanced Optimization, A/B Testing, Real-time Monitoring",$800,Phone + Email Support
+Granicus Peak Performance,Enterprise,$7500,$81000,50,"All Professional Features, Custom Optimization, Dedicated CDN, Priority Support",$1500,24/7 Premium Support
+Meeting Management Suite,Essential,$200,$2160,5,"Basic Meeting Management, Document Sharing, Simple Agenda Builder",$100,Email Support
+Meeting Management Suite,Advanced,$600,$6480,20,"All Essential Features, Advanced Agenda Builder, Live Streaming, Recording",$200,Phone + Email Support
+Meeting Management Suite,Premium,$1500,$16200,100,"All Advanced Features, Multi-language Support, API Integration, Custom Workflows",$400,24/7 Premium Support
+Legislative Management,Basic,$1000,$10800,10,"Bill Tracking, Basic Reporting, Standard Templates",$300,Email Support
+Legislative Management,Professional,$2500,$27000,50,"All Basic Features, Advanced Analytics, Custom Reports, Workflow Automation",$600,Phone + Email Support
+Legislative Management,Enterprise,$6000,$64800,200,"All Professional Features, Multi-jurisdiction Support, API Access, Dedicated Training",$1200,24/7 Premium Support
+Public Records Portal,Starter,$400,$4320,5,"Basic FOIA Management, Simple Request Forms, Email Notifications",$150,Email Support
+Public Records Portal,Standard,$1000,$10800,25,"All Starter Features, Advanced Search, Document Redaction, Payment Processing",$300,Phone + Email Support
+Public Records Portal,Enterprise,$2500,$27000,100,"All Standard Features, API Integration, Bulk Processing, Advanced Analytics",$600,24/7 Premium Support
+Budget Participation Platform,Community,$300,$3240,10,"Basic Budget Tools, Simple Surveys, Community Forums",$100,Email Support
+Budget Participation Platform,Municipal,$800,$8640,50,"All Community Features, Advanced Analytics, Custom Branding, Multi-language",$250,Phone + Email Support
+Budget Participation Platform,Regional,$2000,$21600,200,"All Municipal Features, API Access, White-label Solution, Advanced Reporting",$500,24/7 Premium Support
+Zoning & Planning Suite,Basic,$600,$6480,5,"Basic Zoning Tools, Application Management, Standard Reports",$200,Email Support
+Zoning & Planning Suite,Professional,$1500,$16200,25,"All Basic Features, GIS Integration, Advanced Workflows, Public Portal",$400,Phone + Email Support
+Zoning & Planning Suite,Enterprise,$3500,$37800,100,"All Professional Features, Custom Integrations, Multi-department Support, API Access",$700,24/7 Premium Support

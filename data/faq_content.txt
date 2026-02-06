@@ -1,0 +1,113 @@
+GRANICUS PRODUCT FREQUENTLY ASKED QUESTIONS
+
+=== GENERAL QUESTIONS ===
+
+Q: What is Granicus?
+A: Granicus is a leading provider of government technology solutions that help public sector organizations communicate more effectively with their communities. Our cloud-based platform includes tools for digital communications, meeting management, public records, and civic engagement.
+
+Q: How long has Granicus been in business?
+A: Granicus was founded in 1999 and has been serving government organizations for over 25 years. We have grown from a small startup to a trusted partner for thousands of government agencies worldwide.
+
+Q: What types of organizations use Granicus products?
+A: Our customers include federal agencies, state governments, counties, cities, school districts, universities, healthcare systems, public utilities, transit authorities, and other public sector organizations of all sizes.
+
+=== GOVDELIVERY COMMUNICATIONS CLOUD ===
+
+Q: What is GovDelivery Communications Cloud?
+A: GovDelivery Communications Cloud is our flagship digital communications platform that enables government organizations to reach their audiences through email, SMS, social media, voice messages, and push notifications from a single, integrated platform.
+
+Q: How many subscribers can I have?
+A: This depends on your plan. Our Starter plan supports up to 10,000 subscribers, Professional supports up to 50,000, and Enterprise supports up to 250,000. We can accommodate larger subscriber bases with custom enterprise plans.
+
+Q: Can I send SMS messages to my subscribers?
+A: Yes, SMS messaging is available with our Professional and Enterprise plans. The Starter plan focuses on email communications only.
+
+Q: Is there an API available?
+A: Limited API access is available with the Professional plan, and full API access is included with the Enterprise plan. This allows you to integrate GovDelivery with your existing systems and workflows.
+
+Q: How do you ensure message delivery?
+A: We maintain high deliverability rates through industry best practices including IP warming, domain authentication, list hygiene, and compliance with anti-spam regulations. Our Enterprise plan includes dedicated IP addresses for optimal delivery.
+
+=== GOVACCESS ADA COMPLIANCE ===
+
+Q: What does govAccess help with?
+A: govAccess helps government websites achieve and maintain ADA compliance by providing automated scanning, manual testing, remediation guidance, and ongoing monitoring to ensure your site meets WCAG 2.1 AA standards.
+
+Q: How often does the automated scanning occur?
+A: Automated scanning frequency depends on your plan. Basic plans include weekly scans, Standard plans include daily scans, and Premium plans include continuous monitoring with real-time alerts.
+
+Q: Do you provide remediation services?
+A: Our Premium plan includes full remediation services where our accessibility experts will fix identified issues on your behalf. Standard and Basic plans provide detailed guidance for your team to implement fixes.
+
+Q: Is there a legal compliance guarantee?
+A: Yes, our Premium plan includes a legal compliance guarantee. If your website faces an ADA-related lawsuit after achieving compliance through our Premium service, we provide legal support and coverage.
+
+=== MEETING MANAGEMENT SUITE ===
+
+Q: Can I livestream meetings?
+A: Yes, live streaming is available with our Advanced and Premium plans. The Essential plan focuses on basic meeting management without streaming capabilities.
+
+Q: How long are meeting recordings stored?
+A: Meeting recordings are stored for 12 months with Advanced plans and 24 months with Premium plans. Extended storage options are available for additional fees.
+
+Q: Can I integrate with our existing calendar system?
+A: Yes, our Premium plan includes API integration capabilities that allow connection with popular calendar systems including Outlook, Google Calendar, and other enterprise solutions.
+
+Q: Is closed captioning available?
+A: Automated closed captioning is included with Advanced and Premium plans. Premium plans also offer human-verified captioning for critical meetings.
+
+=== PRICING AND BILLING ===
+
+Q: Are there setup fees?
+A: Yes, most plans include one-time setup fees that cover initial configuration, training, and onboarding. Setup fees range from $100 to $1,500 depending on the product and plan level.
+
+Q: Can I pay annually for a discount?
+A: Yes, annual payment provides a 10% discount compared to monthly billing. For example, the GovDelivery Professional plan costs $1,500/month or $16,200/year (saving $1,800).
+
+Q: Are there volume discounts available?
+A: Yes, we offer volume discounts for large subscriber counts, multi-product bundles, and multi-year contracts. Contact our sales team for custom pricing on enterprise deployments.
+
+Q: What payment methods do you accept?
+A: We accept credit cards, ACH transfers, and purchase orders. Government customers can also use government procurement cards and established vendor accounts.
+
+=== TECHNICAL REQUIREMENTS ===
+
+Q: What are the system requirements?
+A: Granicus products are cloud-based and accessible through modern web browsers. No special software installation is required. We recommend Chrome, Firefox, Safari, or Edge with JavaScript enabled.
+
+Q: Is mobile access available?
+A: Yes, all Granicus products are mobile-responsive and work on tablets and smartphones. We also offer dedicated mobile apps for certain products like GovDelivery.
+
+Q: What about data security?
+A: We maintain SOC 2 Type II compliance, use encryption in transit and at rest, and follow industry security best practices. Government customers receive additional security features including FedRAMP compliance options.
+
+Q: Can you integrate with our existing systems?
+A: Yes, we offer various integration options including APIs, webhooks, single sign-on (SSO), and custom connectors. Integration capabilities vary by product and plan level.
+
+=== SUPPORT AND TRAINING ===
+
+Q: What support is included?
+A: Support levels vary by plan. Email support is included with starter plans, phone and email support with professional plans, and 24/7 premium support with enterprise plans.
+
+Q: Do you provide training?
+A: Yes, we provide comprehensive training including online resources, webinars, and personalized training sessions. Enterprise customers receive dedicated training and onboarding assistance.
+
+Q: Is there a user community?
+A: Yes, we maintain an active user community forum where customers can share best practices, ask questions, and connect with other government communicators.
+
+Q: How quickly do you respond to support requests?
+A: Response times vary by support level. Email support typically responds within 24 hours, phone support within 4 hours, and premium support provides immediate response with dedicated account management.
+
+=== IMPLEMENTATION ===
+
+Q: How long does implementation take?
+A: Implementation timelines vary by product complexity and organizational requirements, typically ranging from 1-12 months. Simple products like basic communication tools can be deployed in weeks, while complex enterprise solutions may take several months.
+
+Q: Do you provide data migration services?
+A: Yes, we provide data migration assistance to help transfer your existing subscriber lists, content, and configurations from previous systems. This service is included with most professional and enterprise plans.
+
+Q: Can we customize the interface?
+A: Customization options depend on your plan level. Basic plans offer limited branding options, while enterprise plans include extensive customization capabilities including white-label solutions.
+
+Q: What happens during the onboarding process?
+A: Our onboarding process includes initial configuration, data migration, user training, integration setup, and go-live support. You'll be assigned a dedicated implementation specialist to guide you through each step.

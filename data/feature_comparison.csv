@@ -1,0 +1,42 @@
+Product,Feature,Starter,Professional,Enterprise,Notes
+GovDelivery Communications Cloud,Email Marketing,Yes,Yes,Yes,Core feature across all tiers
+GovDelivery Communications Cloud,SMS Alerts,No,Yes,Yes,Professional tier and above
+GovDelivery Communications Cloud,Voice Messaging,No,No,Yes,Enterprise exclusive
+GovDelivery Communications Cloud,Social Media Integration,No,Yes,Yes,Professional tier and above
+GovDelivery Communications Cloud,Custom Branding,Basic,Yes,Yes,Limited in Starter
+GovDelivery Communications Cloud,API Access,No,Limited,Full,Enterprise has full API access
+GovDelivery Communications Cloud,Analytics Dashboard,Basic,Advanced,Advanced,More detailed in higher tiers
+GovDelivery Communications Cloud,Template Library,10,50,Unlimited,Increasing template count
+GovDelivery Communications Cloud,A/B Testing,No,Yes,Yes,Professional tier and above
+GovDelivery Communications Cloud,Multi-language Support,No,No,Yes,Enterprise exclusive
+govAccess ADA Compliance,Automated Scanning,Yes,Yes,Yes,Core feature across all tiers
+govAccess ADA Compliance,Manual Testing,No,Yes,Yes,Standard tier and above
+govAccess ADA Compliance,Remediation Guidance,Basic,Yes,Yes,More detailed in higher tiers
+govAccess ADA Compliance,Full Remediation Service,No,No,Yes,Premium exclusive
+govAccess ADA Compliance,Legal Compliance Guarantee,No,No,Yes,Premium exclusive
+govAccess ADA Compliance,White-label Reports,No,No,Yes,Premium exclusive
+govAccess ADA Compliance,Priority Support,No,Yes,Yes,Standard tier and above
+govAccess ADA Compliance,Custom Reporting,No,Yes,Yes,Standard tier and above
+Granicus Peak Performance,Performance Monitoring,Basic,Advanced,Advanced,More comprehensive in higher tiers
+Granicus Peak Performance,Optimization Tools,Basic,Advanced,Custom,Increasing sophistication
+Granicus Peak Performance,A/B Testing,No,Yes,Yes,Professional tier and above
+Granicus Peak Performance,Real-time Monitoring,No,Yes,Yes,Professional tier and above
+Granicus Peak Performance,Dedicated CDN,No,No,Yes,Enterprise exclusive
+Granicus Peak Performance,Custom Optimization,No,No,Yes,Enterprise exclusive
+Granicus Peak Performance,Load Balancing,No,Basic,Advanced,Increasing capability
+Meeting Management Suite,Meeting Management,Basic,Advanced,Advanced,Core functionality
+Meeting Management Suite,Document Sharing,Yes,Yes,Yes,All tiers include
+Meeting Management Suite,Agenda Builder,Simple,Advanced,Advanced,More features in higher tiers
+Meeting Management Suite,Live Streaming,No,Yes,Yes,Advanced tier and above
+Meeting Management Suite,Recording Capability,No,Yes,Yes,Advanced tier and above
+Meeting Management Suite,Multi-language Support,No,No,Yes,Premium exclusive
+Meeting Management Suite,API Integration,No,No,Yes,Premium exclusive
+Meeting Management Suite,Custom Workflows,No,No,Yes,Premium exclusive
+Legislative Management,Bill Tracking,Basic,Advanced,Advanced,Core feature with increasing detail
+Legislative Management,Reporting,Basic,Advanced,Custom,Increasing sophistication
+Legislative Management,Template Library,Standard,Advanced,Custom,More options in higher tiers
+Legislative Management,Workflow Automation,No,Yes,Yes,Professional tier and above
+Legislative Management,Multi-jurisdiction Support,No,No,Yes,Enterprise exclusive
+Legislative Management,API Access,No,Limited,Full,Enterprise has full access
+Legislative Management,Advanced Analytics,No,Yes,Yes,Professional tier and above
+Legislative Management,Custom Reports,No,Yes,Yes,Professional tier and above
